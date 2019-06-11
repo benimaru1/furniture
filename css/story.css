@@ -1,0 +1,28 @@
+/*轮播面*/
+div.met-banner{
+	width:100%;
+	margin:70px auto;
+}
+div.met-banner>img{
+	width:100%;
+}
+
+/*主题内容*/
+div.met-show{
+	width:100%;
+	padding:20px 0;
+}
+div.met-show>div.met-editor{
+	width:70%;
+	padding:40px;
+	margin:0 auto;
+}
+div.met-show>div.met-editor>p:nth-child(1){
+	text-align:center;
+	margin-bottom:70px;
+}
+div.met-show>div.met-editor>p:not(:nth-child(1)){
+	margin-bottom:20px;
+	line-height:2;
+	text-indent:25px;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>家居公司</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="main">
+		<header id="top">
+			<div class="top-content">
+				<a href="index.html"><img src="image/1504692847.png"></a>
+				<h1>欢迎登录</h1>
+			</div>
+		</header>
+		<div class="parent">
+			<div class="container">
+				<div class="panel">
+					<form id="form-login">
+						<div class="text">
+							<p>
+								登录家具商城
+								<span><a href="register.html">新用户注册</a></span>
+							</p>
+						</div>
+						<hr/>
+						<div class="form-group">
+							<input type="text" placeholder="请输入您的用户名" id="uname" name="uname">
+							<div id="uname-show"></div>
+						</div>
+						<div class="form-group">
+							<input type="password" placeholder="请输入您的密码" id="upwd" name="upwd">
+							<div id="upwd-show"></div>
+						</div>
+						<div class="chose">
+							<input type="checkbox" class="checkbox" value="0" id="ck_rmbUser"> 自动登录
+							<span>忘记密码?</span>
+						</div>
+						<div class="form-group">
+							<input type="button" id="btn-login" value="登 录">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</div>	
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/login.js"></script>
+</html>

@@ -1,0 +1,49 @@
+/*设置通用样式*/
+body,p,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dd{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#FFFFFF;
+	font-family: "Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",Roboto,Arial,sans-serif;
+	box-sizing:border-box;
+}
+ul{list-style:none;}
+a{text-decoration:none;color:#2A333C;}
+img{vertical-align:middle;}
+
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.hide{
+	display:none;
+}
+.clear:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+div.main{
+	margin:0 auto;
+}
+hr{
+	border:1px solid #E4EAEC;
+	border-bottom:1px solid transparent;
+}
+div#header.fixed_nav{
+	width:100%;
+	height: 60px;
+	padding:10px 30px 0;
+	font-size:1em;
+	position:fixed;
+	z-index:1;
+	background:#fff;
+	top:0;
+	left:0;
+	right:0;
+	transition:all 0.1s;
+	margin:0 auto;
+}

@@ -1,0 +1,66 @@
+/*轮播图*/
+div.met-banner{
+	width:100%;
+	margin:70px auto;
+}
+div.met-banner>img{
+	width:100%;
+}
+/*导航内容*/
+div.met-column-nav{
+	margin:20px auto 20px;
+	text-align:center;
+}
+div.met-column-nav>ul>li{
+	display:inline-block;
+	margin-right:15px;
+}
+div.met-column-nav>ul>li>a{
+	color:#90939B;
+}
+div.met-column-nav>ul>li>a:hover{
+	color:#4E97D9;
+}
+
+/*主体内容*/
+div.met-show{
+	width:100%;
+	padding:30px;
+	min-height:892px;
+}
+div.met-show>.met-editor{
+	width:1500px;
+	margin:0px auto;
+	font-size:1.2em;
+}
+div.met-show>.met-editor>p{
+	margin-bottom:10px;
+	line-height:2;
+}
+div.met-show>.met-editor>p:not(.title){
+	text-indent:40px;
+}
+div.met-show>.met-editor>ul>li{
+	line-height:2;
+	text-indent:40px;
+}
+div.met-show>.met-editor>ul>li>span{
+	font-size:0.8em;
+}
+div.met-show>.met-editor>div.addr{
+	margin-top:40px;
+}
+div.met-show>.met-editor>div.addr>h3{
+	padding:20px 0 20px 40px;
+}
+div.met-show>.met-editor>div.addr>div>p{
+	text-indent:60px;
+	line-height:2;
+}
+div.met-show>.met-editor>div.addr>div>p:nth-child(6)>a{
+	color:#9CB2EF;
+}
+div.met-show>.met-editor>div.addr>div>p:nth-child(6)>a:hover{
+	text-decoration:underline;
+}
+

@@ -1,0 +1,97 @@
+/*页头*/
+#top{
+	width:1200px;
+	margin:20px auto;
+}
+#top>div.top-content{
+	width:100%;
+}
+#top>div.top-content>h1{
+	display:inline-block;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+/*表单内容*/
+div.parent{
+	width:100%;
+}
+div.parent>div.container{
+	width:100%;
+	height:600px;
+	margin:0 auto;
+	overflow-x:hidden;
+	background:transparent url(../image/register/login.jpg) repeat-x 0 -50px;
+}
+div.parent div.panel{
+	position:relative;
+	width:600px;
+	background-color:rgba(0,0,0,0.4);
+	top:10%;
+	left:60%;
+	color:#FFFFFF;
+	padding:10px;
+}
+#form-register>div.text{
+	padding:10px;
+}
+#form-register>div.text>p{
+	font-size:18px;
+}
+#form-register>div.text>p>span{
+	position:relative;
+	left:200px;
+}
+#form-register>div.text>p a{
+	color:#fff;
+	font-size:10px;
+}
+#form-register>div.form-group{
+	margin-top:25px;
+}
+#form-register>div.form-group>label{
+	display:inline-block;
+	width:70px;
+	text-align:right;
+	padding-right:10px;
+}
+#form-register>div.form-group>input{
+	width:240px;
+	padding:10px 20px 10px 16px;
+	background:#fff;
+	outline:none;
+	border:none;
+	border-radius:4px;
+}
+#form-register>div.form-group>#btn{
+	width:276px;
+	cursor:pointer;
+	margin-left:85px;
+	background:#19A9F2;
+	color:#fff;
+}
+div.form-group>span{
+	width:270px;
+	color:#fff;
+	padding:4px;
+	margin-left:10px;
+	border-radius:2px;
+}
+/*表单提示样式*/
+div.form-group>span.msg-err{
+	background:#d00;
+}
+div.form-group>span.msg-success{
+	background:#0d0;
+}
+div.form-group>span.msg-default{
+	background:#999;
+}
+
+/*隐藏最底部*/
+div#footer>p{
+	display:none;
+}
+div#footer>hr{
+	display:none;
+}

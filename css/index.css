@@ -1,0 +1,206 @@
+/*轮播图banner*/
+div#banner{
+	width:1920px;
+	height:930px;
+	margin:70px auto;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+div#banner>ul.banner-img{
+	position:absolute;
+	left:0;
+}
+div#banner>ul.banner-img img{
+	width:1920px;
+	height:930px;
+}
+div#banner>ul.banner-img>li{
+	float:left;
+	width:1920px;
+	height:930px;
+}
+div#banner>a.ck-slide{
+	position:absolute;
+	top:415px;
+	width:50px;
+	height:100px;
+	border-radius:10px;
+	opacity:.15;
+}
+div#banner>a.ck-left{
+	left:5px;
+	background:#000 url("../image/arrow-left.png") no-repeat center center;
+}
+div#banner>a.ck-right{
+	right:5px;
+	background:#000 url("../image/arrow-right.png") no-repeat center center;
+}
+div#banner>a.ck-slide:hover{
+	opacity:0.3;
+}
+div#banner>ul.indicators{
+	position:absolute;
+	bottom:10%;
+	left:47%;
+}
+div#banner>ul.indicators>li{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	border-radius:50%;
+	background:#fff;
+}
+div#banner>ul.indicators>li.hover{
+	background:#4E97D9;
+}
+
+/*商品类别*/
+div#product-item{
+	width:1500px;
+	margin:0 auto;
+}
+p.title{
+	margin-top:50px;
+	text-align:center;
+	font-size:2.5em;
+	color:#37474F;
+}
+p.info{
+	text-align:center;
+	color:#37474F;
+	margin-top:15px;
+}
+div#product-item>div.products{
+	width:1500px;
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between;
+}
+div#product-item>div.products>div{
+	width:19%;
+}
+div#product-item>div.products>div>a{
+	display:inline-block;
+}
+div#product-item>div.products>div p{
+	height:50px;
+	font-size:1.5em;
+	text-align:center;
+	line-height:50px;
+}
+div#product-item>div.products>div img{
+	width:100%;
+}
+
+/*商品展示*/
+div#product-show{
+	background:#F5F5F5;
+	margin:50px auto;
+	height:900px;
+	padding-top:50px;
+}
+div#product-show>ul.product-naver{
+	margin:30px;
+	text-align:center;
+}
+div#product-show>ul.product-naver>li{
+	display:inline-block;
+	margin-right:0.5px;
+}
+div#product-show>ul.product-naver>li>a{
+	display:block;
+	width:100px;
+	height:50px;
+	border-radius:5px;
+	text-align:center;
+	line-height:50px;
+	background:#fff;
+}
+div#product-show>ul.product-naver>li.active>a{
+	background:#4E97D9;
+	color:#fff;
+}
+
+div#product-show>div.product-details{
+	width:1500px;
+	margin:30px auto;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	text-align:center;
+}
+div#product-show>div.product-details>div.product{
+	width:24%;
+	background:#fff;
+	margin-bottom:20px;
+}
+
+div#product-show>div.product-details>div.product img{
+	width:100%;
+}
+div#product-show>div.product-details>div.product>div.name{
+	width:100%;
+	height:3em;
+}
+div#product-show>div.product-details>div.product>div.name>a{
+	line-height:3em;
+}
+div#product-show>div.product-details>div.product>div.name>a:hover{
+	color:#4E97D9;
+	text-decoration:underline;
+}
+div#product-show>div.product-details>div.product>p.price{
+	margin-bottom:0.5em;
+	color:red;
+}
+
+/* 家居知识 */
+div#product-knoledge{
+	width:1500px;
+	margin:50px auto;
+}
+div#product-knoledge>.product-demos{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	margin-top:20px;
+}
+div#product-knoledge>.product-demos>.product-demo{
+	width:48%;
+	margin-bottom:20px;
+}
+div#product-knoledge .product-img{
+	float:left;
+	margin-right:10px;
+	width:25%;
+}
+div#product-knoledge .product-img img{
+	width:100%;
+}
+div#product-knoledge .detail{
+	float:left;
+	width:70%;
+}
+div#product-knoledge .detail>p.product-title>a{
+	font-size:1.3em;
+}
+div#product-knoledge .detail>p.product-title>a:hover{
+	color:#4E97D9;
+	text-decoration:underline;
+}
+div#product-knoledge .detail>p.product-info{
+	margin-top:5px;
+	color:#76838F;
+	font-size:1.1em;
+}
+div#product-knoledge .detail>div.product-others{
+	margin-top:10px;
+	color:#76838F;
+}
+div#product-knoledge .detail ul>li{
+	display:inline-block;
+	margin-right:5px;
+}
+

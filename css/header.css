@@ -1,0 +1,87 @@
+.login,.register{
+	display:inline-block;
+	width:90px;
+	height:48px;
+	margin-top:6px;
+	margin-left:10px;
+	padding:6px 15px;
+	line-height:36px;
+	text-align:center;
+	font-weight:bold;
+	box-sizing:border-box;
+}
+.login{
+	border:1px solid #62A8EA;
+	color:#62A8EA;
+	transition:all 0.3s linear;
+}
+.login:hover{
+	color:#fff;
+	background:#62A8EA;
+}
+div.login-succ{
+	display:inline-block;
+	font-size:1.2em;
+	height:48px;
+	margin-top:6px;
+	margin-left:10px;
+	line-height:48px;
+}
+div.login-succ>a:hover{
+	color:#62A8EA;
+}
+.register{
+	background:#46BE8A;
+	color:#fff;
+	opacity:1;
+	transition:all 0.3s linear;
+}
+.register:hover{
+	opacity:0.75;
+}
+#header>#nav>ul>li{
+	display:inline-block;
+	cursor:pointer;
+	width:120px;
+	margin-top:5px;
+	position:relative;
+}
+#header>#nav>ul>li>a{
+	height:50px;
+	line-height:50px;
+}
+#header>#nav>ul>li .caret{
+	width:0;
+	height:0;
+	border-left:7px solid transparent;
+	border-right:7px solid transparent;
+	border-top:7px solid #2A333C;
+	position:absolute;
+	top:42%;
+	right:25%;
+}
+#header>#nav>ul ul.select{
+	display:none;
+	position:absolute;
+	background:#fff;
+	padding:10px 0;
+	box-shadow:1px 1px 10px #E4EAEC;
+}
+#header>#nav>ul ul.select>li>a{
+	display:block;
+	width:150px;
+	height:40px;
+	text-indent:20px;
+	line-height:40px;
+}
+#header>#nav>ul ul.select>li:hover>a{
+	color:#4E97D9;
+	background:#F5F5F5;
+}
+
+#header>#nav>ul>li:hover>a{
+	color:#4E97D9;
+}
+#header>#nav>ul>li:hover>ul.select{
+	display:block;
+}

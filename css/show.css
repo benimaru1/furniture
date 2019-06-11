@@ -1,0 +1,60 @@
+/*轮播图*/
+div.met-banner{
+	width:100%;
+	margin:70px auto;
+}
+div.met-banner>img{
+	width:100%;
+}
+/*客户晒图*/
+div.met-show{
+	width:1500px;
+	margin:40px auto;
+}
+div.met-show>div.met-imgs{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+}
+div.met-imgs>div.met-img{
+	width:30%;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:40px;
+}
+div.met-imgs>div.met-img>img{
+	display:block;
+	width:100%;
+	transform:scale(1);
+	transition:all 0.25s linear;
+}
+div.met-imgs>div.met-img>div.met-filter{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	opacity:0;
+	background:#000;
+}
+div.met-imgs>div.met-img:hover>img{
+	transform:scale(1.15);
+}
+div.met-imgs>div.met-img:hover>div.met-filter{
+	opacity:0.2;
+	transition:all 0.25s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

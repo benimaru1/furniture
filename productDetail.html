@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>家居公司</title>
+	<link rel="stylesheet" href="css/base.css">	
+	<link rel="stylesheet" href="css/detail.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<div class="main">
+		<!-- 头部 -->
+		<div id="header" class="fixed_nav"></div>
+		<!--面包屑导航-->
+		<!--无内容删除提示窗-->
+		<div class="modalNo" style="display:none">
+			<div class="modal_dialog">
+				<div class="modal_header">
+					<span>添加提示</span>
+					<img src="image/model/model_img1.png" class="close">
+				</div>
+				<div class="modal_information">
+					<p>添加成功</p>
+					<a href="javascript:;" class="sure">确定</a>
+				</div>
+			</div>
+		</div>
+		<div id="bread-crumb">
+<!-- 			<a href="index.html">首页</a> -->
+<!-- 			<span> > </span> -->
+<!-- 			<a href="#">沙发</a> -->
+<!-- 			<span> > </span> -->
+<!-- 			<a href="#">白色沙发</a> -->
+		</div>
+		<!--详情列表-->
+		<div id="product-details" class="clear">
+			<!--左上:展示图-->
+			<div id="preview">
+				<div class="md-img">
+ 					<img src="image/product/md/1505010101.jpg" id="mImg">
+					<div id="mask"></div>
+					<div id="superMask"></div>	
+				</div>
+				<div class="lg-img">
+ 					<img src="image/product/lg/1505010101.jpg" id="lImg">
+				</div>
+				<div class="sm-img">
+					<a class="backward ward"><</a>
+					<a class="forward ward">></a>
+					<ul class="icon_list">
+						<li>
+							<img src="image/product/sm/1505010101.jpg" data-md="image/product/md/1505010101.jpg" data-lg="image/product/lg/1505010101.jpg">
+						</li>
+						<li>
+							<img src="image/product/sm/1505010101.jpg" data-md="image/product/md/1505010101.jpg" data-lg="image/product/lg/1505010101.jpg">
+						</li>
+						<li>
+							<img src="image/product/sm/1505010101.jpg" data-md="image/product/md/1505010101.jpg" data-lg="image/product/lg/1505010101.jpg">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--右上:文字信息-->
+			<div id="show-details">
+<!-- 				<div class="title">白色沙发</div> -->
+<!-- 				<a href="#" class="subtitle">【11.11提前抢】11.11同价钜惠，早下单早到家！10.23-10.31偶像级珠光真皮床直降300！购指定品牌床垫满两件享88折！更多床垫特价、买赠去看看>>></a> -->
+<!-- 				<div class="p-price"> -->
+<!-- 					<div class="price"><span>特价: </span><span>¥2999.00元</span></div> -->
+<!-- 					<div class="promise">服务承诺： *退货补运费 *30天无忧退货 *48小时快速退款 *72小时发货</div> -->
+<!-- 					<!--客服 -->
+<!-- 					<div class="parameter"> -->
+<!-- 						<span>客服: 联系客服</span> -->
+<!-- 						<img src="image/kefuf.gif"> -->
+<!-- 					</div> -->
+<!-- 					<!--规格 -->
+<!-- 					<div class="spec"> -->
+<!-- 						<p>规格: <span>白色</span></p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+				<!--数量 -->
+				<div class="account">
+					<span>数量: </span>
+					<button class="account-reduce">-</button>
+					<input type="text" value="1">
+					<button class="account-add">+</button>
+				</div>
+				<!--购买部分 -->
+				<div class="shops">
+					<a href="javascript:;" class="buy">立即购买</a>
+					<a href="javascript:;" class="cart"><img src="image/product_detail_img7.png">加入购物车</a>
+					<a href="javascript:;" class="collection"><img src="image/product_detail_img6.png">收藏</a>
+				</div>
+			</div>
+			<!--推荐信息-->
+			<div id="recommend">
+				<p><span>为您推荐 </span><span>大家都在看</span></p>
+				<div class="demo">
+					<div class="demo-list">
+						<a href="productDetail.html?pid=1"><img src="image/product/1505010101.jpg"></a>
+						<p>白色沙发</p>
+					</div>		
+					<div class="demo-list">
+						<a href="productDetail.html?pid=7"><img src="image/product/1505010107.jpg"></a>
+						<p>安乐椅</p>
+					</div>		
+					<div class="demo-list">
+						<a href="productDetail.html?pid=9"><img src="image/product/1505010109.jpg"></a>
+						<p>圆木乡村餐桌</p>
+					</div>		
+					<div class="demo-list">
+						<a href="productDetail.html?pid=6"><img src="image/product/1505010106.jpg"></a>
+						<p>实木黑棕色座椅</p>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<!--商品保障 -->
+		<div id="foot-box">
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_103803.png">
+					<p>网商+体验馆</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_103818.png">
+					<p>100%正品</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_103850.png">
+					<p>双重质检</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_103908.png">
+					<p>全球化采购</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_103942.png">
+					<p>无理由退货</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_104010.png">
+					<p>贵就赔</p>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img src="image/detail/2017-10-24_104032.png">
+					<p>万千口碑</p>
+				</a>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<div id="footer"></div>
+	</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/base.js"></script>
+<script src="js/detail.js"></script>
+</html>
